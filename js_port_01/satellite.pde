@@ -1,0 +1,44 @@
+class Satellite {
+  
+  		/* deg2rad: 1.745329251994330E-2,
+		pi: 3.14159265358979323846, pio2: 1.57079632679489656, twopi: 6.28318530717958623,
+		e6a: 1.0E-6,
+                */
+
+		float tothrd = 6.6666666666666666E-1;
+		float xj3 = -2.53881E-6; float xke = 7.43669161E-2; float xkmper = 6.378137E3; float xmnpda = 1.44E3;
+		float ae = 1.0;
+		float ck2 = 5.413079E-4; float ck4 = 6.209887E-7;
+float f = 3.35281066474748E-3; float s = 1.012229;
+		qoms2t: 1.880279E-09,
+		secday: 8.6400E4,
+		omega_E: 1.00273790934,
+		zns: 1.19459E-5, c1ss: 2.9864797E-6, zes: 1.675E-2, znl: 1.5835218E-4, c1l: 4.7968065E-7, zel: 5.490E-2,
+		zcosis: 9.1744867E-1, zsinis: 3.9785416E-1, zsings: -9.8088458E-1, zcosgs: 1.945905E-1,
+		q22: 1.7891679E-6, q31: 2.1460748E-6, q33: 2.2123015E-7,
+		g22: 5.7686396, g32: 9.5240898E-1, g44: 1.8014998, g52: 1.0508330, g54: 4.4108898,
+		root22: 1.7891679E-6, root32: 3.7393792E-7, root44: 7.3636953E-9, root52: 1.1428639E-7, root54: 2.1765803E-9,
+		thdt: 4.3752691E-3,
+		mfactor: 7.292115E-5,
+		sr: 6.96000E5,
+		AU: 1.49597870691E8,
+
+		dpinit: 1, dpsec: 2, dpper: 3,
+
+		ALL_FLAGS: -1,
+		SGP4_INITIALIZED_FLAG: 0x000002,
+		SDP4_INITIALIZED_FLAG: 0x000004,
+		SIMPLE_FLAG: 0x000020,
+		DEEP_SPACE_EPHEM_FLAG: 0x000040,
+		LUNAR_TERMS_DONE_FLAG: 0x000080,
+		DO_LOOP_FLAG: 0x000200,
+		RESONANCE_FLAG: 0x000400,
+		SYNCHRONOUS_FLAG: 0x000800,
+		EPOCH_RESTART_FLAG: 0x001000,
+		VISIBLE_FLAG: 0x002000,
+		SAT_ECLIPSED_FLAG: 0x004000,
+  
+  
+  
+  
+}
